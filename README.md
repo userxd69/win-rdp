@@ -1,4 +1,4 @@
-# I will update the main server link every weak dont worry ! 😊
+# main server link every weak don't worry ! 😊
 
 ```
 NGROK_AUTH_TOKEN
