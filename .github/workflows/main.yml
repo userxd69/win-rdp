@@ -50,7 +50,7 @@ jobs:
 
       run: sc start ngrok
 
-    - name: Your VPS Credential ......
+    - name: Your VPS Credential......
 
       run: cmd /c NGROK-CHECK.bat
 
