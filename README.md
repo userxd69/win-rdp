@@ -5,3 +5,4 @@
 ```
 NGROK_AUTH_TOKEN
 ```
+Get your tokken from here `https://dashboard.ngrok.com/get-started/your-authtoken`
