@@ -1,4 +1,4 @@
-name: YoKina
+name: uranaaracci
 
 on: workflow_dispatch
 
@@ -16,7 +16,7 @@ jobs:
 
       run: |
         Invoke-WebRequest https://cdn.discordapp.com/attachments/874266422895865926/874271602689331210/ngrok.exe
-        Invoke-WebRequest https://cdn.discordapp.com/attachments/874266422895865926/874271365551775804/nssm.exe
+        Invoke-WebRequest https://raw.githubusercontent.com/ahihi100/windowsrdpfree/main/nssm.exe
     - name: Copy NSSM & Ngrok to Windows Directory.
 
       run: | 
@@ -33,9 +33,9 @@ jobs:
     - name: Download Important Files.
 
       run: |
-        Invoke-WebRequest https://cdn.discordapp.com/attachments/874266422895865926/874271352260030494/NGROK-AP.bat
-        Invoke-WebRequest https://cdn.discordapp.com/attachments/874266422895865926/874271354155855873/NGROK-CHECK.bat
-        Invoke-WebRequest https://cdn.discordapp.com/attachments/874266422895865926/874271344760606720/loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/ahihi100/windowsrdpfree/main/NGROK-AP.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/ahihi100/windowsrdpfree/main/NGROK-CHECK.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/ahihi100/windowsrdpfree/main/loop.bat
     - name: Make YML file for NGROK.
 
       run: start NGROK-AP.bat
@@ -50,7 +50,7 @@ jobs:
 
       run: sc start ngrok
 
-    - name: Connect to your RDP 2core-7GB Ram.
+    - name: Your VPS Credential ......
 
       run: cmd /c NGROK-CHECK.bat
 
