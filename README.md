@@ -1,4 +1,4 @@
-<img src="https://cdn.discordapp.com/attachments/863056311569481729/874277868178378832/rdp-logo.png" align="left" width="15%">
+<img src="https://cdn.discordapp.com/attachments/863056311569481729/874277868178378832/rdp-logo.png" align="left" width="10%">
 
 ### Last resource update 8/12/2021
 
