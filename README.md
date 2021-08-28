@@ -2,8 +2,8 @@
 
 ## Add a secret from setting
 
+Get your tokken from [NGROK](https://dashboard.ngrok.com/get-started/your-authtoken)
+
 ```
 NGROK_AUTH_TOKEN
 ```
-
-Get your tokken from [NGROK](https://dashboard.ngrok.com/get-started/your-authtoken)
